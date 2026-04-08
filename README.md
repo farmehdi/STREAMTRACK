@@ -1,4 +1,4 @@
-# StreamTrack 🎬
+# StreamTrack 
 
 ## Sujet et contexte
 
