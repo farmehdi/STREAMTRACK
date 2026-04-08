@@ -133,7 +133,7 @@ Chaque session de visionnage. C'est la table centrale pour calculer le ROI.
 
 ## 4. Choix de types — Récapitulatif
 
-Comme vu en cours (Cours 3), SQLite a 5 classes de stockage. Voici nos choix raisonnés :
+Voici nos choix raisonnés :
 
 | Besoin | Type choisi | Pourquoi pas les autres |
 |---|---|---|
