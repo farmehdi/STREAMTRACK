@@ -52,7 +52,7 @@ streamtrack/
 ### `schema.sql`
 Crée la **structure complète** de la base : 4 tables, 5 index et 2 vues.
 
-- `PRAGMA foreign_keys = ON` — active la vérification des clés étrangères (désactivées par défaut dans SQLite).sans lui SQLite accepterait n'importe quelle valeur dans les clés étrangères et nos données deviendraient incohérentes.
+- `PRAGMA foreign_keys = ON` — active la vérification des clés étrangères (désactivées par défaut dans SQLite).Sans lui SQLite accepterait n'importe quelle valeur dans les clés étrangères et nos données deviendraient incohérentes.
 - **4 tables** : `platforms`, `users`, `contents`, `watch_history` avec toutes leurs contraintes (`NOT NULL`, `CHECK`, `UNIQUE`, `DEFAULT`, `FOREIGN KEY`, `ON DELETE CASCADE`)
 - **5 index** sur les colonnes les plus fréquemment utilisées dans les jointures et tris
 - `CREATE VIEW v_watch_details` — jointure pré-calculée des 4 tables pour simplifier les requêtes
